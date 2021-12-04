@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8124524453288983002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8124524453288983003}
+  - component: {fileID: 8124524453288982996}
+  m_Layer: 0
+  m_Name: torreta 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8124524453288983003
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8124524453288983002}
+  m_LocalRotation: {x: 0, y: 0, z: -0.4544569, w: 0.89076877}
+  m_LocalPosition: {x: -34.6, y: -15.1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -54.06}
+--- !u!114 &8124524453288982996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8124524453288983002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8018aa0421188347a2b091fd072b62b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawntime: 1
+  spawner: {fileID: 8124524453288983002}
+  shoot: {fileID: 8741531481900693275, guid: 5f4f362f0816bb140ae4cf7b9e7bc9d0, type: 3}
+  rott: {x: 0, y: 0, z: 0}
+  speed: 75
+  dir: {x: 0, y: 0, z: 0}
+  waypoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  maxRange: 0.5
+  rotSpeed: 0
